@@ -8,9 +8,9 @@ data all; set test.A test.B test.C;
 BMI=(weight)/((height/100)**2);
 BMi=INT(BMI*1000+0.5)/1000;
 
-if bmi<19 then body='ÀúÃ¼Áß';
-else if bmi<25 then body='Á¤»óÃ¼Áß';
-else body='°úÃ¼Áß';
+if bmi<19 then body='Ã€ÃºÃƒÂ¼ÃÃŸ';
+else if bmi<25 then body='ÃÂ¤Â»Ã³ÃƒÂ¼ÃÃŸ';
+else body='Â°ÃºÃƒÂ¼ÃÃŸ';
 run;
 
 data sp; set test.sports;
